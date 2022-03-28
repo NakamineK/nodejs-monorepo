@@ -9,7 +9,8 @@
   "scripts": {
     "clean": "tsc --build --clean",
     "build": "tsc --build",
-    "watch": "tsc --build --watch"
+    "watch": "tsc --build --watch",
+    "sb:noob": "npm run storybook -w @nakaminek/ui-noob"
   },
   "dependencies": {
     "copyfiles": "^2.4.1",
